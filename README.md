@@ -15,5 +15,5 @@ Analysis of MOSFET Id-Vgs characteristics and transconductance (gm) using Python
 
 
 ## Observation
--Id는 약 Vgs=1.2까지 영이다.
--Id는 Vgs=1.2 이후로는, 비선형적으로 증가한다.
+- Id는 약 Vgs=1.2까지 영이다.
+- Id는 Vgs=1.2 이후로는, 비선형적으로 증가한다.
