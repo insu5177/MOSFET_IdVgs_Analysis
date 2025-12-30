@@ -10,7 +10,7 @@ Analysis of MOSFET Id-Vgs characteristics and transconductance (gm) using Python
 - gm = dId/dVgs 계산
 - 결과에 대한 물리적 해석 정리
 
-## Result:Id–Vgs Characteristic
+## Result:Id–Vgs 
 -![Id–Vgs Result](IdVgs_result.png)
 
 
