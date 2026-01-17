@@ -18,7 +18,7 @@ Analysis of MOSFET Id-Vgs characteristics and transconductance (gm) using Python
 - Id는 약 Vgs=1.2까지 0이다.
 - Id는 Vgs=1.2 이후로는, 비선형적으로 증가한다.
   
-##Interpretation
+## Interpretation
 - Vgs가 약 1.2V이하에서는 MOSFET이 꺼진 상태로 채널 형성이 되지 않아 드레인 전류가 거의 흐르지 않는다.
 - Vgs가 문턱 전압을 초과하면 채널이 형성되며, Id는 (Vgs-Vth)에 의존하여 비선형적으로 증가한다.
 
