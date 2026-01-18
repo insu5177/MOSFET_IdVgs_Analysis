@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 Vth = 1.2
 
 # 데이터 로드
-data = pd.read_csv("../data/IdVgs_measured.csv")
+data = pd.read_csv("data/IdVgs_measured.csv")
 
 # Vgs > Vth 구간만 추출
 on_region = data[data["Vgs"] > Vth]
