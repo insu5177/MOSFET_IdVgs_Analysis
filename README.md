@@ -11,7 +11,7 @@ Analysis of MOSFET Id-Vgs characteristics and transconductance (gm) using Python
 - 결과에 대한 물리적 해석 정리
 
 ## Result:Id–Vgs 
--![Id–Vgs Result](IdVgs_result.png)
+-![Id–Vgs Result](results/IdVgs_result.png)
 
 
 ## Observation
@@ -30,4 +30,6 @@ Analysis of MOSFET Id-Vgs characteristics and transconductance (gm) using Python
 - 문턱 전압 이후 구간(Vgs > Vth)만 추출
 - Id vs (Vgs − Vth)² 관계 확인
 
+## Result:Id_vs_Vgs_minus_Vth_square
+- ![Square Relation](results/Id_vs_Vgs_minus_Vth_square.png)
 
