@@ -33,3 +33,9 @@ Analysis of MOSFET Id-Vgs characteristics and transconductance (gm) using Python
 ## Result:Id_vs_Vgs_minus_Vth_square
  ![Square Relation](results/Id_vs_Vgs_minus_Vth_square.png)
 
+## Observation
+- 문턱전압이후 구간에서 Id는 (Vgs − Vth)²에 대해 선형적으로 증가한다.
+
+## Interpretation
+- MOSFET이 켜지면 전류는 게이트 전압에 대해 제곱 형태로 증가한다.
+- 그래서 Id는 Vgs에 대해 직선이 아니라  곡선 형태를 가진다. 
