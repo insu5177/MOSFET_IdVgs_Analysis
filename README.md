@@ -39,3 +39,15 @@ Analysis of MOSFET Id-Vgs characteristics and transconductance (gm) using Python
 ## Interpretation
 - MOSFET이 켜지면 전류는 게이트 전압에 대해 제곱 형태로 증가한다.
 - 그래서 Id는 Vgs에 대해 직선이 아니라  곡선 형태를 가진다. 
+
+## Next Analysis: Transconductance (gm)
+- gm = dId / dVgs 계산
+- gm의 Vgs 의존성 분석
+- 문턱 전압 근처 gm 변화 해석
+
+## Result:gm_vs_Vgs
+ ![gm Result](results/gm_vs_Vgs.png)
+
+## Observation
+- Vgs가 문턱 전압 이하일 때 gm은 거의 0이다.
+- 문턱 전압을 넘어서면 gm이 급격히 증가한다.
